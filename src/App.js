@@ -4,7 +4,7 @@ const apiKey = `beb0b19afb95c7c29f3a66e9e62e70af`;
 
 function App() {
   const [city, setCity] = useState("")
-  const [result, setResult] = useState('')
+  const [result, setResult] = useState("")
 
   function submitHandler(e){
     e.preventDefault()
