@@ -22,7 +22,7 @@ function App() {
         <div card-body>
         <h1 card-title>Weather App</h1>
         <form onSubmit={submitHandler}>
-          <input name='city' type='text' placeholder='Enter your city...' value={city} onChange={(e) => {setCity(e.target.value)}} />
+          <input name='city' required type='text' placeholder='Enter your city...' value={city} onChange={(e) => {setCity(e.target.value)}} />
           <input type='submit' value='Get Temperature' required />
         </form>
         <h3>{result}</h3>
